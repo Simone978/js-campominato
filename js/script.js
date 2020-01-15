@@ -13,7 +13,7 @@ console.log(numeriCasuali);
 var fine = false;
 var domandaUtente = [];
 var numeriUtente = 0;
-while(domandaUtente.length < 5 && fine == false){
+while(domandaUtente.length < 100 && fine == false){
   numeriUtente = parseInt(prompt('inserisci un numero'));
   domandaUtente.push(numeriUtente);
   if(arrayCheck(numeriCasuali, numeriUtente) == true){
